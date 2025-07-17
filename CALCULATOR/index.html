@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>simple<br>calculator
+    <div class="calculatorbody">
+      <input type="text" id="input" readonly />
+      <div class="button-container">
+        <button class="button" onclick="take1()">1</button>
+        <button class="button" onclick="take2()">2</button>
+        <button class="button" onclick="take3()">3</button>
+        <button class="button" onclick="takeplus()">+</button> 
+      </div>
+
+      <div class="button-container"> 
+        <button class="button" onclick="take4()">4</button>
+        <button class="button" onclick="take5()">5</button>
+        <button class="button" onclick="take6()">6</button>
+        <button class="button" onclick="takeminus()">-</button> 
+      </div>
+      <div class="button-container"> 
+        <button class="button" onclick="take7()">7</button>
+        <button class="button" onclick="take8()">8</button>
+        <button class="button" onclick="take9()">9</button>
+        <button class="button" onclick="takemultiply()">*</button> 
+      </div>     
+      <div class="button-container"> 
+        <button class="button" onclick="takedivid()">/</button>
+        <button class="button" onclick="take0()">0</button>
+        <button class="button" onclick="takeequal()">=</button>
+        <button class="button" onclick="takeC()">C</button>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
