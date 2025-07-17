@@ -36,6 +36,12 @@ Welcome to my collection of **Web Development Projects**! This repository contai
 
 ---
 
+here is my roadmap for both frontend and backend development -
+
+
+![rode map fullstack](https://github.com/user-attachments/assets/f34d5997-8af9-45a6-8daa-ac3ee5c6aa60)
+
+
 
 📫 Contact
 Let's connect on:
